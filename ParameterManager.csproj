@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<PlatformTarget>x64</PlatformTarget>
+		<OutputType>Library</OutputType>
+		<RootNamespace>ParameterManager</RootNamespace>
+		<AssemblyName>ParameterManager</AssemblyName>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="2026.4.10" />
+	  <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="2026.4.10" />
+	  <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.0.0" />
+	  <PackageReference Include="Nice3point.Revit.Extensions" Version="2026.1.2" />
+	  <PackageReference Include="Nice3point.Revit.Toolkit" Version="2026.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="RevitAPI">
+	    <HintPath>D:\Revit25\Revit 2025\RevitAPI.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="RevitAPIUI">
+	    <HintPath>D:\Revit25\Revit 2025\RevitAPIUI.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="ParameterManager.addin">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

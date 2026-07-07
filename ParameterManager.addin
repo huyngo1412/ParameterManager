@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Parameter Manager</Name>
+    <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2025\ParameterManager\ParameterManager.dll</Assembly>
+    <AddInId>9D7B8D86-6F1E-4C92-8F9C-7A6C58F04E22</AddInId>
+    <FullClassName>ParameterManager.App</FullClassName>
+    <VendorId>MADH</VendorId>
+    <VendorDescription>Parameter Manager for Revit</VendorDescription>
+  </AddIn>
+</RevitAddIns>
