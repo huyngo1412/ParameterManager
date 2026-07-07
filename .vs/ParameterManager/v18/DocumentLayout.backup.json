@@ -1,0 +1,805 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ParameterManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.0\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.1\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\parametermanager.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:parametermanager.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\parametermanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:parametermanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\resources\\controls\\lefttreemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:resources\\controls\\lefttreemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\revitselectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\revitselectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\views\\imagepickerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:views\\imagepickerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\views\\imagepickerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:views\\imagepickerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\parametersetters\\elementidparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\parametersetters\\elementidparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\parametersetters\\integerparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\parametersetters\\integerparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\parametersetters\\revitparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\parametersetters\\revitparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\externalcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:externalcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\revitelementoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\revitelementoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\revitfamilytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\revitfamilytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\iselectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\iselectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\ielementoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\ielementoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\ifamilytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\ifamilytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\parametertreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\parametertreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\parameterdescriptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\parameterdescriptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\elementoptionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\elementoptionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\elementoptionkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\elementoptionkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\parametereditorkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\parametereditorkind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\parametersetters\\parametervaluesetterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\parametersetters\\parametervaluesetterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\resources\\controls\\lookuppanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:resources\\controls\\lookuppanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\familytreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\familytreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\parameterscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\parameterscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\common\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:common\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\iparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\iparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\contracts\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:contracts\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\assignresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\assignresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\parameterconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\parameterconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\materialitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\materialitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\models\\familytreenodekind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:models\\familytreenodekind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\services\\parametersetters\\stringparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:services\\parametersetters\\stringparametervaluesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.NET.Sdk.WindowsDesktop.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\resources\\controls\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:resources\\controls\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|f:\\parametermanager\\resources\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B3E8A1-9F4A-4E6A-A8B6-3C9F7B2E4D1F}|ParameterManager.csproj|solutionrelative:resources\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "DocumentMoniker": "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.0\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "ToolTip": "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.0\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-07T00:25:52.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "DocumentMoniker": "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.1\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "ToolTip": "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\3.0.1\\build\\Nice3point.Revit.GenerateCompatibleDefineConstants.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-07T00:24:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RevitSelectionService.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\RevitSelectionService.cs",
+              "RelativeDocumentMoniker": "Services\\RevitSelectionService.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\RevitSelectionService.cs",
+              "RelativeToolTip": "Services\\RevitSelectionService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:17:05.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImagePickerWindow.xaml.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Views\\ImagePickerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ImagePickerWindow.xaml.cs",
+              "ToolTip": "F:\\ParameterManager\\Views\\ImagePickerWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ImagePickerWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:19:26.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "F:\\ParameterManager\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAEkCAAAAAAAAAAAnwGQCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:20:30.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeftTreeMenu.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Resources\\Controls\\LeftTreeMenu.xaml",
+              "RelativeDocumentMoniker": "Resources\\Controls\\LeftTreeMenu.xaml",
+              "ToolTip": "F:\\ParameterManager\\Resources\\Controls\\LeftTreeMenu.xaml",
+              "RelativeToolTip": "Resources\\Controls\\LeftTreeMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T15:29:28.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParameterManager.csproj",
+              "DocumentMoniker": "F:\\ParameterManager\\ParameterManager.csproj",
+              "RelativeDocumentMoniker": "ParameterManager.csproj",
+              "ToolTip": "F:\\ParameterManager\\ParameterManager.csproj",
+              "RelativeToolTip": "ParameterManager.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-06T15:59:19.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParameterManager.addin",
+              "DocumentMoniker": "F:\\ParameterManager\\ParameterManager.addin",
+              "RelativeDocumentMoniker": "ParameterManager.addin",
+              "ToolTip": "F:\\ParameterManager\\ParameterManager.addin",
+              "RelativeToolTip": "ParameterManager.addin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000072|",
+              "WhenOpened": "2026-07-06T15:28:28.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "F:\\ParameterManager\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "F:\\ParameterManager\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-06T15:28:29.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView.xaml",
+              "ToolTip": "F:\\ParameterManager\\Views\\MainView.xaml",
+              "RelativeToolTip": "Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T16:24:15.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImagePickerWindow.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Views\\ImagePickerWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ImagePickerWindow.xaml",
+              "ToolTip": "F:\\ParameterManager\\Views\\ImagePickerWindow.xaml",
+              "RelativeToolTip": "Views\\ImagePickerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T23:19:05.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ElementIdParameterValueSetter.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\ParameterSetters\\ElementIdParameterValueSetter.cs",
+              "RelativeDocumentMoniker": "Services\\ParameterSetters\\ElementIdParameterValueSetter.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\ParameterSetters\\ElementIdParameterValueSetter.cs",
+              "RelativeToolTip": "Services\\ParameterSetters\\ElementIdParameterValueSetter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:17:06.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainView.xaml.cs",
+              "ToolTip": "F:\\ParameterManager\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "Views\\MainView.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:19:13.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IntegerParameterValueSetter.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\ParameterSetters\\IntegerParameterValueSetter.cs",
+              "RelativeDocumentMoniker": "Services\\ParameterSetters\\IntegerParameterValueSetter.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\ParameterSetters\\IntegerParameterValueSetter.cs",
+              "RelativeToolTip": "Services\\ParameterSetters\\IntegerParameterValueSetter.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:18:03.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RevitParameterService.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\ParameterSetters\\RevitParameterService.cs",
+              "RelativeDocumentMoniker": "Services\\ParameterSetters\\RevitParameterService.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\ParameterSetters\\RevitParameterService.cs",
+              "RelativeToolTip": "Services\\ParameterSetters\\RevitParameterService.cs",
+              "ViewState": "AgIAABQCAAAAAAAAAAAiwDsCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:21:12.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExternalCommand.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\ExternalCommand.cs",
+              "RelativeDocumentMoniker": "ExternalCommand.cs",
+              "ToolTip": "F:\\ParameterManager\\ExternalCommand.cs",
+              "RelativeToolTip": "ExternalCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:18:19.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RevitElementOptionRepository.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\RevitElementOptionRepository.cs",
+              "RelativeDocumentMoniker": "Services\\RevitElementOptionRepository.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\RevitElementOptionRepository.cs",
+              "RelativeToolTip": "Services\\RevitElementOptionRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:16:48.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RevitFamilyTypeRepository.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\RevitFamilyTypeRepository.cs",
+              "RelativeDocumentMoniker": "Services\\RevitFamilyTypeRepository.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\RevitFamilyTypeRepository.cs",
+              "RelativeToolTip": "Services\\RevitFamilyTypeRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:16:10.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISelectionService.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\ISelectionService.cs",
+              "RelativeDocumentMoniker": "Contracts\\ISelectionService.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\ISelectionService.cs",
+              "RelativeToolTip": "Contracts\\ISelectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:15:49.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IElementOptionRepository.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\IElementOptionRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IElementOptionRepository.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\IElementOptionRepository.cs",
+              "RelativeToolTip": "Contracts\\IElementOptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:15:29.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFamilyTypeRepository.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\IFamilyTypeRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IFamilyTypeRepository.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\IFamilyTypeRepository.cs",
+              "RelativeToolTip": "Contracts\\IFamilyTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:20.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ParameterTreeNode.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ParameterTreeNode.cs",
+              "RelativeDocumentMoniker": "Models\\ParameterTreeNode.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ParameterTreeNode.cs",
+              "RelativeToolTip": "Models\\ParameterTreeNode.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAiwLkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:14:58.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ParameterDescriptor.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ParameterDescriptor.cs",
+              "RelativeDocumentMoniker": "Models\\ParameterDescriptor.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ParameterDescriptor.cs",
+              "RelativeToolTip": "Models\\ParameterDescriptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:15:58.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ElementOptionItem.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ElementOptionItem.cs",
+              "RelativeDocumentMoniker": "Models\\ElementOptionItem.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ElementOptionItem.cs",
+              "RelativeToolTip": "Models\\ElementOptionItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:13:59.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ElementOptionKind.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ElementOptionKind.cs",
+              "RelativeDocumentMoniker": "Models\\ElementOptionKind.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ElementOptionKind.cs",
+              "RelativeToolTip": "Models\\ElementOptionKind.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T23:13:27.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParameterEditorKind.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ParameterEditorKind.cs",
+              "RelativeDocumentMoniker": "Models\\ParameterEditorKind.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ParameterEditorKind.cs",
+              "RelativeToolTip": "Models\\ParameterEditorKind.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:01:55.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ParameterValueSetterFactory.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\ParameterSetters\\ParameterValueSetterFactory.cs",
+              "RelativeDocumentMoniker": "Services\\ParameterSetters\\ParameterValueSetterFactory.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\ParameterSetters\\ParameterValueSetterFactory.cs",
+              "RelativeToolTip": "Services\\ParameterSetters\\ParameterValueSetterFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:44:13.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LookupPanel.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Resources\\Controls\\LookupPanel.xaml",
+              "RelativeDocumentMoniker": "Resources\\Controls\\LookupPanel.xaml",
+              "ToolTip": "F:\\ParameterManager\\Resources\\Controls\\LookupPanel.xaml",
+              "RelativeToolTip": "Resources\\Controls\\LookupPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T15:29:33.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ParameterScope.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ParameterScope.cs",
+              "RelativeDocumentMoniker": "Models\\ParameterScope.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ParameterScope.cs",
+              "RelativeToolTip": "Models\\ParameterScope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:14:57.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FamilyTreeNode.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\FamilyTreeNode.cs",
+              "RelativeDocumentMoniker": "Models\\FamilyTreeNode.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\FamilyTreeNode.cs",
+              "RelativeToolTip": "Models\\FamilyTreeNode.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAiwF8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:06:26.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\App.cs",
+              "RelativeDocumentMoniker": "App.cs",
+              "ToolTip": "F:\\ParameterManager\\App.cs",
+              "RelativeToolTip": "App.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:23:03.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\ParameterManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "F:\\ParameterManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-06T22:49:45.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Common\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "Common\\ObservableObject.cs",
+              "ToolTip": "F:\\ParameterManager\\Common\\ObservableObject.cs",
+              "RelativeToolTip": "Common\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:27.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IParameterValueSetter.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\IParameterValueSetter.cs",
+              "RelativeDocumentMoniker": "Contracts\\IParameterValueSetter.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\IParameterValueSetter.cs",
+              "RelativeToolTip": "Contracts\\IParameterValueSetter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:25.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IParameterService.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\IParameterService.cs",
+              "RelativeDocumentMoniker": "Contracts\\IParameterService.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\IParameterService.cs",
+              "RelativeToolTip": "Contracts\\IParameterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:23.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IMaterialRepository.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Contracts\\IMaterialRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IMaterialRepository.cs",
+              "ToolTip": "F:\\ParameterManager\\Contracts\\IMaterialRepository.cs",
+              "RelativeToolTip": "Contracts\\IMaterialRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AssignResult.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\AssignResult.cs",
+              "RelativeDocumentMoniker": "Models\\AssignResult.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\AssignResult.cs",
+              "RelativeToolTip": "Models\\AssignResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:10.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoryItem.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\CategoryItem.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryItem.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\CategoryItem.cs",
+              "RelativeToolTip": "Models\\CategoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:46:05.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ParameterConstants.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\ParameterConstants.cs",
+              "RelativeDocumentMoniker": "Models\\ParameterConstants.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\ParameterConstants.cs",
+              "RelativeToolTip": "Models\\ParameterConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:45:55.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MaterialItem.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\MaterialItem.cs",
+              "RelativeDocumentMoniker": "Models\\MaterialItem.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\MaterialItem.cs",
+              "RelativeToolTip": "Models\\MaterialItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:45:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FamilyTreeNodeKind.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Models\\FamilyTreeNodeKind.cs",
+              "RelativeDocumentMoniker": "Models\\FamilyTreeNodeKind.cs",
+              "ToolTip": "F:\\ParameterManager\\Models\\FamilyTreeNodeKind.cs",
+              "RelativeToolTip": "Models\\FamilyTreeNodeKind.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:45:53.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StringParameterValueSetter.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\Services\\ParameterSetters\\StringParameterValueSetter.cs",
+              "RelativeDocumentMoniker": "Services\\ParameterSetters\\StringParameterValueSetter.cs",
+              "ToolTip": "F:\\ParameterManager\\Services\\ParameterSetters\\StringParameterValueSetter.cs",
+              "RelativeToolTip": "Services\\ParameterSetters\\StringParameterValueSetter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:45:51.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "F:\\ParameterManager\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
+              "ToolTip": "F:\\ParameterManager\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T16:45:49.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Microsoft.NET.Sdk.WindowsDesktop.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.NET.Sdk.WindowsDesktop.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.NET.Sdk.WindowsDesktop.targets",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAjwG4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-06T14:17:16.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Resources\\Controls\\Button.xaml",
+              "RelativeDocumentMoniker": "Resources\\Controls\\Button.xaml",
+              "ToolTip": "F:\\ParameterManager\\Resources\\Controls\\Button.xaml",
+              "RelativeToolTip": "Resources\\Controls\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T15:29:27.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "F:\\ParameterManager\\Resources\\Style.xaml",
+              "RelativeDocumentMoniker": "Resources\\Style.xaml",
+              "ToolTip": "F:\\ParameterManager\\Resources\\Style.xaml",
+              "RelativeToolTip": "Resources\\Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T15:29:17.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AgIAANUAAAAAAAAAAAAjwL0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-06T14:17:21.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
