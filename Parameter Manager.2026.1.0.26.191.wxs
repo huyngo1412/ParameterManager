@@ -1,0 +1,52 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Compressed="yes" ProductCode="b1d6237a-bdbc-4c21-8d0c-76ac1039471b" Name="Parameter Manager.2026.1.0.26.191" Language="1033" Version="1.0.26.191" UpgradeCode="b1d6237a-bdbc-4c21-8d0c-76ac0038a75b" Manufacturer="Autodesk" Scope="perUser" InstallerVersion="200">
+    <SummaryInformation Codepage="Windows-1252" />
+    <Media Id="1" Cabinet="_...meter20Manager.2026.1.0.26.191_.cab" EmbedCab="yes" />
+
+    <StandardDirectory Id="CommonAppDataFolder">
+      <Directory Id="Autodesk" Name="Autodesk">
+        <Directory Id="Revit" Name="Revit">
+          <Directory Id="INSTALLDIR" Name="Addins">
+            <Directory Id="_2026_" Name="2026">
+
+              <Component Id="Component.addin_2026_ParameterManager" Guid="b1d6237a-bdbc-4c21-8d0c-76ace8a78672" Bitness="always64">
+                <File Id="addin_2026_ParameterManager" Source="D:\CODE\ParameterManager\ParameterManager.addin" />
+              </Component>
+
+              <Directory Id="contents" Name="contents">
+
+                <Component Id="Component.file_2026_ParameterManager" Guid="b1d6237a-bdbc-4c21-8d0c-76aceffa5123" Bitness="always64">
+                  <File Id="file_2026_ParameterManager" Source="D:\CODE\ParameterManager\bin\Debug\net8.0-windows\ParameterManager.dll" />
+                </Component>
+
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </StandardDirectory>
+
+    <WixUI Id="WixUI_InstallDir" xmlns="http://wixtoolset.org/schemas/v4/wxs/ui" />
+
+    <MajorUpgrade AllowSameVersionUpgrades="yes" DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit." Schedule="afterInstallInitialize" />
+
+    <UI>
+      <Publish Dialog="WelcomeDlg" Control="Next" Condition="1" Event="NewDialog" Value="InstallDirDlg" Order="5" />
+      <Publish Dialog="InstallDirDlg" Control="Back" Condition="1" Event="NewDialog" Value="WelcomeDlg" Order="5" />
+    </UI>
+
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+    <Property Id="ARPCOMMENTS" Value="Revit Add-in: Parameter Manager" />
+    <Property Id="ARPHELPLINK" Value="https://github.com/chuongmep/RevitMsiBuilderWPF/issues" />
+    <Property Id="REINSTALLMODE" Value="omus" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+    <Property Id="INSTALLDIR" Secure="yes" />
+
+    <Feature Id="Complete" Title="Complete" Level="1" AllowAbsent="yes">
+      <ComponentRef Id="Component.addin_2026_ParameterManager" />
+      <ComponentRef Id="Component.file_2026_ParameterManager" />
+    </Feature>
+  </Package>
+</Wix>
+

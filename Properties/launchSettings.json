@@ -3,8 +3,9 @@
     "ParameterManager": {
       "commandName": "Project"
     },
-    "Profile 1": {
-      "commandName": "Project"
+    "REVIT": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Autodesk\\Revit 2025\\Revit.exe"
     }
   }
 }

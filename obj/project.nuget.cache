@@ -1,17 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NC5lR0C0k0E=",
+  "dgSpecHash": "n1KGxfeoxgY=",
   "success": true,
-  "projectFilePath": "F:\\ParameterManager\\ParameterManager.csproj",
+  "projectFilePath": "D:\\CODE\\ParameterManager\\ParameterManager.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.api.revitapi\\2026.4.10\\nice3point.revit.api.revitapi.2026.4.10.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.api.revitapiui\\2026.4.10\\nice3point.revit.api.revitapiui.2026.4.10.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.build.tasks\\2.0.0\\nice3point.revit.build.tasks.2.0.0.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.extensions\\2026.1.2\\nice3point.revit.extensions.2026.1.2.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\nice3point.revit.toolkit\\2026.1.0\\nice3point.revit.toolkit.2026.1.0.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\roxki\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512"
+    "C:\\Users\\STT\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\STT\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\STT\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512"
   ],
   "logs": []
 }

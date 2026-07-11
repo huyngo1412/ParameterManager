@@ -1,4 +1,5 @@
 using Autodesk.Revit.UI;
+using System;
 using System.Linq;
 using System.Reflection;
 
@@ -8,8 +9,19 @@ namespace ParameterManager
     {
         public Result OnStartup(UIControlledApplication application)
         {
-            CreateAddInsPanel(application);
-            return Result.Succeeded;
+            try
+            {
+                CreateAddInsPanel(application);
+                return Result.Succeeded;
+            }
+            catch (Exception ex)
+            {
+                TaskDialog.Show(
+                    "Parameter Manager – Startup Error",
+                    ex.ToString());
+
+                return Result.Failed;
+            }
         }
 
         public Result OnShutdown(UIControlledApplication application)
@@ -17,12 +29,13 @@ namespace ParameterManager
             return Result.Succeeded;
         }
 
-        private void CreateAddInsPanel(UIControlledApplication application)
+        private static void CreateAddInsPanel(
+            UIControlledApplication application)
         {
             const string panelName = "Parameter Manager";
 
             RibbonPanel panel = application
-                .GetRibbonPanels("Add-Ins")
+                .GetRibbonPanels()
                 .FirstOrDefault(x => x.Name == panelName);
 
             if (panel == null)
@@ -30,7 +43,8 @@ namespace ParameterManager
                 panel = application.CreateRibbonPanel(panelName);
             }
 
-            string assemblyPath = Assembly.GetExecutingAssembly().Location;
+            string assemblyPath =
+                Assembly.GetExecutingAssembly().Location;
 
             PushButtonData buttonData = new PushButtonData(
                 "OpenParameterManager",

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\ParameterManager\obj\Debug\net8.0-windows\
+D:\CODE\ParameterManager\obj\Debug\net8.0-windows\
 ParameterManager
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 6-575751978
 
 3843325216
-202-980242722
+200103945644
 Resources\Controls\Button.xaml;Resources\Controls\LeftTreeMenu.xaml;Resources\Controls\LookupPanel.xaml;Resources\Style.xaml;Views\ImagePickerWindow.xaml;Views\MainView.xaml;
 
 False
