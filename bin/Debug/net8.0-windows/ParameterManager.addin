@@ -2,10 +2,10 @@
 <RevitAddIns>
 	<AddIn Type="Application">
 		<Name>Parameter Manager</Name>
-		<Assembly>D:\CODE\ParameterManager\bin\Debug\net8.0-windows\ParameterManager.dll</Assembly>
+		<Assembly>ParameterManager/ParameterManager.dll</Assembly>
 		<AddInId>B1D6237A-BDBC-4C21-8D0C-76AC0038A75B</AddInId>
 		<FullClassName>ParameterManager.App</FullClassName>
-		<VendorId>MADH</VendorId>
-		<VendorDescription>Hu</VendorDescription>
+		<VendorId>com.company.product</VendorId>
+		<VendorDescription>company, https://company.net</VendorDescription> 
 	</AddIn>
 </RevitAddIns>

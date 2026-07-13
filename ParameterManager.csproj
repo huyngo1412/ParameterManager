@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFramework>net8.0-windows</TargetFramework>
 		<UseWPF>true</UseWPF>
@@ -10,29 +9,104 @@
 		<RootNamespace>ParameterManager</RootNamespace>
 		<AssemblyName>ParameterManager</AssemblyName>
 		<LangVersion>latest</LangVersion>
-
-		<RevitVersion>2025</RevitVersion>
+		<Configurations>2025;Debug_2025;2026;Debug_2026</Configurations>
+		<Platforms>x64</Platforms>
 	</PropertyGroup>
 
+	<!-- RevitVersion -->
+	<Choose>
+		<When Condition="$(Configuration.Contains('2025'))">
+			<PropertyGroup>
+				<RevitVersion>2025</RevitVersion>
+				<TargetFramework>net8.0-windows</TargetFramework>
+				<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+				<UseWPF>true</UseWPF>
+				<UseWindowsForms>true</UseWindowsForms>
+				<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+				<EnableDefaultPageItems>false</EnableDefaultPageItems>
+			</PropertyGroup>
+		</When>
+		<Otherwise>
+			<PropertyGroup>
+				<RevitVersion>2026</RevitVersion>
+				<TargetFramework>net8.0-windows</TargetFramework>
+			</PropertyGroup>
+		</Otherwise>
+	</Choose>
+
+
+	<!-- Release -->
+	<PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\$(RevitVersion)\$(AssemblyName)\</OutputPath>
+		<DefineConstants>REVIT$(RevitVersion)</DefineConstants>
+		<NoWarn>MSB3052</NoWarn>
+		<DebugType>None</DebugType>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+
+	<!-- Debug -->
+	<PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+		<DebugSymbols>true</DebugSymbols>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE;REVIT$(RevitVersion)</DefineConstants>
+		<DebugType>Full</DebugType>
+	</PropertyGroup>
+
+	<!-- DebugRevitVersion -->
+	<PropertyGroup>
+		<DebugRevitVersion>$(RevitVersion)</DebugRevitVersion>
+		<StartAction>Program</StartAction>
+		<StartProgram>$(ProgramW6432)\Autodesk\Revit $(DebugRevitVersion)\Revit.exe</StartProgram>
+	</PropertyGroup>
+
+
+	<PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+		<PostBuildEvent>
+			SET pathAddin=$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\$(AssemblyName)\
+			if not exist "%pathAddin%" mkdir "%pathAddin%"
+			echo "****************************************** DEBUG ******************************************"
+			if exist "$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)" copy "$(SolutionDir)$(AssemblyName)\*.addin" "$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)"
+			if exist "$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\$(AssemblyName)\" copy "$(SolutionDir)$(AssemblyName)\$(OutputPath)*.dll" "$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\$(AssemblyName)\"
+			cd $(TargetDir)
+			del  RevitAPI.dll RevitAPIUI.dll
+			del  *.pdb *.config *.xml *.hash
+			rmdir /s /q "x64"
+			rmdir /s /q "x86"
+		</PostBuildEvent>
+	</PropertyGroup>
+	<PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
+		<PostBuildEvent>
+			set FILES=AdWindows.dll RevitAPI.dll RevitAPIUI.dll UIFrameworkServices.dll
+			for %%i in (%FILES%) do (
+			if exist "$(ProgramW6432)\Autodesk\Revit $(RevitVersion)\%%i" copy "$(ProgramW6432)\Autodesk\Revit $(RevitVersion)\%%i" "$(SolutionDir)$(AssemblyName)\$(OutputPath)\"
+			)
+			SET pathdll=$(SolutionDir)$(AssemblyName)\$(OutputPath)
+			echo "****************************************** RELEASE(Sercurity) ******************************************"
+			cd $(pathdll)
+			for %%i in (%FILES%) do (
+			del %%i
+			)
+			del  *.pdb *.config *.xml *.hash
+			rmdir /s /q "x64"
+			rmdir /s /q "x86"
+			copy "$(SolutionDir)$(AssemblyName)\*.addin" "$(SolutionDir)$(AssemblyName)\bin\Release\$(RevitVersion)\"
+		</PostBuildEvent>
+	</PropertyGroup>
+	
 	<ItemGroup>
 	  <Reference Include="RevitAPI">
-	    <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPI.dll</HintPath>
+	    <HintPath>D:\Revit25\Revit 2025\RevitAPI.dll</HintPath>
 	    <Private>False</Private>
 	  </Reference>
 	  <Reference Include="RevitAPIUI">
-	    <HintPath>C:\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
+	    <HintPath>D:\Revit25\Revit 2025\RevitAPIUI.dll</HintPath>
 	    <Private>False</Private>
 	  </Reference>
 	</ItemGroup>
-
 	<ItemGroup>
 		<None Update="ParameterManager.addin">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
-
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="copy &quot;$(TargetDir)&quot;&quot;.&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2025\&quot;" />
-	</Target>
-
 </Project>

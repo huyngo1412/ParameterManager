@@ -1,0 +1,11 @@
+E:\ParameterManager\bin\Debug\ParameterManager.deps.json
+E:\ParameterManager\bin\Debug\ParameterManager.dll
+E:\ParameterManager\bin\Debug\ParameterManager.pdb
+E:\ParameterManager\obj\Debug\ParameterManager.csproj.AssemblyReference.cache
+E:\ParameterManager\obj\Debug\ParameterManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\ParameterManager\obj\Debug\ParameterManager.csproj.CoreCompileInputs.cache
+E:\ParameterManager\obj\Debug\ParameterManager.sourcelink.json
+E:\ParameterManager\obj\Debug\ParameterManager.dll
+E:\ParameterManager\obj\Debug\refint\ParameterManager.dll
+E:\ParameterManager\obj\Debug\ParameterManager.pdb
+E:\ParameterManager\obj\Debug\ref\ParameterManager.dll
